@@ -20,6 +20,8 @@
 }
 
 
+
+
 p.thick{
     
     font-weight: bold;
@@ -64,8 +66,10 @@ nav{
     background-color: black;
     width: 100%;
     color: white;
-
+    top:0;
+    position: fixed;
 }
+
 
 article{
     border: solid;
@@ -92,6 +96,37 @@ section{
  
  footer{
     
-    font-size: 10px;
-    
+        font-size: 10px;
+        position: relative;
+        bottom: 0px;
  }
+ 
+ /* FORM START */
+ 
+ fieldset{
+        
+        border : 1px solid #b30000;
+ }
+ 
+ input,textarea,select{
+        
+        display: inline-block;
+        float: left;
+        border: 1px solid white;
+        border-radius: 1px;
+        width: 200px;
+        box-shadow: 1px 1px 2px #C0C0C0 inset;
+        
+}
+
+label{
+        
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 7em;
+        text-align: right;
+        
+}
+
+/* FORM ENDS */
